@@ -45,7 +45,7 @@ rl-fundamentals-code/
 ├─ ch3_multi_armed_bandits/        # Chapter 3
 ├─ ch4_dynamic_programming/        # Chapter 4
 ├─ ch5_monte_carlo/                # Chapter 5
-├─ ch6_td_learning/                # Chapter 6: 
+├─ ch6_td_learning/                # Chapter 6 
 ├─ utils/
 └─ .github/workflows/
 ```
@@ -82,7 +82,7 @@ If you use this code or the accompanying book in your research or teaching, plea
 **Book (forthcoming):**
 ```bibtex
 @book{baride2025rlexplained,
-  author    = {Srikanth Baride},
+  author    = {Srikanth Baride et al. },
   title     = {Reinforcement Learning Explained},
   publisher = {To be decided},
   year      = {2025},
