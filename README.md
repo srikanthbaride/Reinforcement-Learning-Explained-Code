@@ -6,6 +6,7 @@
 [![ch4](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch4.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch4.yml)
 [![ch5](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch5.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch5.yml)
 [![ch6](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch6.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch6.yml)
+[![ch7](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch7.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch7.yml)
 
 ---
 
@@ -20,6 +21,7 @@ It provides clean, minimal, and well-tested implementations of key reinforcement
 - [Chapter 4: Dynamic Programming Approaches](./ch4_dynamic_programming)
 - [Chapter 5: Monte Carlo Methods](./ch5_monte_carlo)
 - [Chapter 6: Temporal-Difference Learning](./ch6_td_learning)
+- [Chapter 7: TD Control — SARSA and Q-Learning](./ch7_td_control)
 
 ---
 
@@ -33,7 +35,8 @@ It provides clean, minimal, and well-tested implementations of key reinforcement
 | 4       | Dynamic Programming Approaches | ✅ Complete    | Policy Iteration, Value Iteration                   |
 | 5       | Monte Carlo Methods            | ✅ Complete    | Prediction, Control, On/Off-Policy                  |
 | 6       | Temporal-Difference Learning   | ✅ Complete    | TD(0), n-step TD, prediction examples               |
-| 7+      | Advanced TD / Control & Beyond | ⏳ In Progress | SARSA, Q-learning, Eligibility Traces, etc.         |
+| 7       | TD Control                     | ✅ Complete    | SARSA, Q-learning, Cliff-Walking, exploration       |
+| 8+      | Advanced TD / Function Approx. | ⏳ In Progress | Eligibility Traces, Deadly Triad, etc.              |
 
 ---
 
@@ -45,7 +48,8 @@ rl-fundamentals-code/
 ├─ ch3_multi_armed_bandits/        # Chapter 3
 ├─ ch4_dynamic_programming/        # Chapter 4
 ├─ ch5_monte_carlo/                # Chapter 5
-├─ ch6_td_learning/                # Chapter 6 
+├─ ch6_td_learning/                # Chapter 6
+├─ ch7_td_control/                 # Chapter 7
 ├─ utils/
 └─ .github/workflows/
 ```
@@ -60,10 +64,10 @@ To run all tests:
 python -m pytest -q
 ```
 
-Run only Chapter 6 tests:
+Run only Chapter 7 tests:
 
 ```bash
-python -m pytest -q ch6_td_learning/tests
+python -m pytest -q tests/test_ch7_td_control.py
 ```
 
 ---
