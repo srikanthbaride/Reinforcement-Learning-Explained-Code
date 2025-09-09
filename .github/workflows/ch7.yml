@@ -1,4 +1,4 @@
-name: "CI: Chapter 7 (TD Control)"
+name: "Ch7"
 
 on:
   push:
