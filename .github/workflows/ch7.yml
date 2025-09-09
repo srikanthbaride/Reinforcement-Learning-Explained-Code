@@ -1,0 +1,25 @@
+name: CI: Chapter 7 (TD Control)
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "ch7_td_control/**"
+      - "tests/**"
+      - ".github/workflows/ch7.yml"
+      - ".github/workflows/_chapter-tests.yml"
+      - "requirements.txt"
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "ch7_td_control/**"
+      - "tests/**"
+      - ".github/workflows/ch7.yml"
+      - ".github/workflows/_chapter-tests.yml"
+      - "requirements.txt"
+
+jobs:
+  ch7:
+    uses: ./.github/workflows/_chapter-tests.yml
+    with:
+      chapter: ch7_td_control
