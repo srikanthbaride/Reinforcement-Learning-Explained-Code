@@ -67,12 +67,6 @@ To run all tests:
 python -m pytest -q
 ```
 
-Run only Chapter 8 tests:
-
-```bash
-python -m pytest -q ch8_td_lambda/tests
-```
-
 ---
 
 ## ⚙️ Continuous Integration
