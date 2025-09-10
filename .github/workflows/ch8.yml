@@ -35,7 +35,7 @@ jobs:
           pip install pytest
 
       - name: Run TD(λ) demo
-        run: python ch8_td_lambda/examples/TD_Lambda_Demo.py
+        run: python -m ch8_td_lambda.examples.TD_Lambda_Demo
 
       - name: Run SARSA(λ) demo
-        run: python ch8_td_lambda/examples/SARSA_Lambda_Demo.py
+        run: python -m ch8_td_lambda.examples.SARSA_Lambda_Demo
