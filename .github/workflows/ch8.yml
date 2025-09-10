@@ -1,0 +1,41 @@
+name: "Chapter 8: Eligibility Traces and TD(λ)"
+
+on:
+  push:
+    paths:
+      - 'ch8_td_lambda/**'
+      - '.github/workflows/ch8.yml'
+  pull_request:
+    paths:
+      - 'ch8_td_lambda/**'
+      - '.github/workflows/ch8.yml'
+
+jobs:
+  test:
+    uses: ./.github/workflows/_chapter-tests.yml
+    with:
+      chapter: ch8_td_lambda
+
+  examples:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install root requirements
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install numpy matplotlib; fi
+          pip install pytest
+
+      - name: Run TD(λ) demo
+        run: python ch8_td_lambda/examples/TD_Lambda_Demo.py
+
+      - name: Run SARSA(λ) demo
+        run: python ch8_td_lambda/examples/SARSA_Lambda_Demo.py
