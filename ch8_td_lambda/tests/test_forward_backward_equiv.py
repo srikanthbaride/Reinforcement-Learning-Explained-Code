@@ -2,15 +2,14 @@ import numpy as np
 
 def truncated_lambda_return(b, c, lam):
     """
-    Finite-episode λ-return for a 3-step episode with rewards (0,0,1), γ=1.
+    Finite-episode λ-return for a 3-step episode (rewards 0,0,1) with γ=1.
     G^(1)=b, G^(2)=c, G^(3)=1.
-    G^λ = (1-λ)(G1 + λ G2) + λ^2 G3
     """
     G1, G2, G3 = b, c, 1.0
     return (1 - lam) * (G1 + lam * G2) + (lam ** 2) * G3
 
 def test_forward_backward_equivalence():
-    a, b, c = 0.5, 0.3, 0.2
+    a, b, c = 0.3, 0.6, 0.2
     lam = 0.5
 
     # Forward (truncated episodic λ-return)
