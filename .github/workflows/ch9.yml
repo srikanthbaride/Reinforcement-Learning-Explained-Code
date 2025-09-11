@@ -34,5 +34,7 @@ jobs:
           pip install numpy>=1.23 matplotlib>=3.7 pytest
 
       - name: Run Chapter 9 tests
+        shell: bash
         run: |
-          pytest -q ch9_model_based_planning/tests/test_ch9_mbrl.py
+          export PYTHONPATH="$GITHUB_WORKSPACE"
+          python -m pytest -q ch9_model_based_planning/tests/test_ch9_mbrl.py
