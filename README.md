@@ -57,6 +57,7 @@ rl-fundamentals-code/
 ├─ ch6_td_learning/                # Chapter 6
 ├─ ch7_td_control/                 # Chapter 7
 ├─ ch8_td_lambda/                  # Chapter 8
+├─ ch9_model_based_planning/       # Chapter 9
 ├─ utils/
 └─ .github/workflows/
 ```
