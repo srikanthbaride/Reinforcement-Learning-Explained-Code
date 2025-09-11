@@ -8,6 +8,7 @@
 [![ch6](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch6.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch6.yml)
 [![ch7](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch7.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch7.yml)
 [![ch8](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch8.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch8.yml)
+[![ch9](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch9.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch9.yml)
 
 ---
 
@@ -24,6 +25,8 @@ It provides clean, minimal, and well-tested implementations of key reinforcement
 - [Chapter 6: Temporal-Difference Learning](./ch6_td_learning)
 - [Chapter 7: TD Control — SARSA and Q-Learning](./ch7_td_control)
 - [Chapter 8: Eligibility Traces and TD(λ)](./ch8_td_lambda)
+- [Chapter 9: Model-Based RL and Planning](./ch9_model_based_planning)
+
 
 ---
 
@@ -39,6 +42,7 @@ It provides clean, minimal, and well-tested implementations of key reinforcement
 | 6       | Temporal-Difference Learning   | ✅ Complete    | TD(0), n-step TD, prediction examples               |
 | 7       | TD Control                     | ✅ Complete    | SARSA, Q-learning, Cliff-Walking, exploration       |
 | 8       | Eligibility Traces and TD(λ)   | ✅ Complete    | TD(λ), SARSA(λ), True Online TD(λ), gridworld demos |
+| 9       | Model-Based RL and Planning   | ✅ Complete    | Dyna-Q, planning with rollouts, gridworld demos     |
 
 ---
 
