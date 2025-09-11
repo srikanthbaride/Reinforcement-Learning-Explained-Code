@@ -1,4 +1,4 @@
-name: ch2 tests
+name: ch2
 
 on:
   push:

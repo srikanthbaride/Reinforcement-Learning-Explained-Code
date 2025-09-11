@@ -1,4 +1,4 @@
-name: ch3 tests
+name: ch3
 on:
   push:
     branches: [ "main" ]
