@@ -1,0 +1,38 @@
+name: ch10 — Function Approximation
+
+on:
+  push:
+    paths:
+      - 'ch10_function_approx/**'
+      - '.github/workflows/ch10.yml'
+  pull_request:
+    paths:
+      - 'ch10_function_approx/**'
+      - '.github/workflows/ch10.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.10', '3.11']
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip
+          pip install -r ch10_function_approx/requirements.txt
+
+      - name: Run Chapter 10 tests
+        env:
+          PYTHONPATH: .
+        run: |
+          pytest -q ch10_function_approx/tests
