@@ -9,6 +9,7 @@
 [![ch7](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch7.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch7.yml)
 [![ch8](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch8.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch8.yml)
 [![ch9](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch9.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch9.yml)
+[![ch10](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch10.yml/badge.svg)](https://github.com/srikanthbaride/Reinforcement-Learning-Explained-Code/actions/workflows/ch10.yml)
 
 ---
 
@@ -26,23 +27,25 @@ It provides clean, minimal, and well-tested implementations of key reinforcement
 - [Chapter 7: TD Control — SARSA and Q-Learning](./ch7_td_control)
 - [Chapter 8: Eligibility Traces and TD(λ)](./ch8_td_lambda)
 - [Chapter 9: Model-Based RL and Planning](./ch9_model_based_planning)
+- [Chapter 10: Function Approximation Basics](./ch10_function_approx)
 
 
 ---
 
 ## 📊 Chapter Progress
 
-| Chapter | Title                          | Status        | Notes                                               |
-|---------|--------------------------------|---------------|-----------------------------------------------------|
-| 1       | Introduction                   | ✅ Complete    | Book only (no code needed)                          |
-| 2       | The RL Problem Formulation     | ✅ Complete    | GridWorld, evaluation, policies, examples           |
-| 3       | Multi-Armed Bandits            | ✅ Complete    | Bandit envs, ε-greedy, UCB, Thompson                |
-| 4       | Dynamic Programming Approaches | ✅ Complete    | Policy Iteration, Value Iteration                   |
-| 5       | Monte Carlo Methods            | ✅ Complete    | Prediction, Control, On/Off-Policy                  |
-| 6       | Temporal-Difference Learning   | ✅ Complete    | TD(0), n-step TD, prediction examples               |
-| 7       | TD Control                     | ✅ Complete    | SARSA, Q-learning, Cliff-Walking, exploration       |
-| 8       | Eligibility Traces and TD(λ)   | ✅ Complete    | TD(λ), SARSA(λ), True Online TD(λ), gridworld demos |
-| 9       | Model-Based RL and Planning   | ✅ Complete    | Dyna-Q, planning with rollouts, gridworld demos     |
+| Chapter | Title                           | Status        | Notes                                               |
+|---------|---------------------------------|---------------|-----------------------------------------------------|
+| 1       | Introduction                    | ✅ Complete    | Book only (no code needed)                          |
+| 2       | The RL Problem Formulation      | ✅ Complete    | GridWorld, evaluation, policies, examples           |
+| 3       | Multi-Armed Bandits             | ✅ Complete    | Bandit envs, ε-greedy, UCB, Thompson                |
+| 4       | Dynamic Programming Approaches  | ✅ Complete    | Policy Iteration, Value Iteration                   |
+| 5       | Monte Carlo Methods             | ✅ Complete    | Prediction, Control, On/Off-Policy                  |
+| 6       | Temporal-Difference Learning    | ✅ Complete    | TD(0), n-step TD, prediction examples               |
+| 7       | TD Control                      | ✅ Complete    | SARSA, Q-learning, Cliff-Walking, exploration       |
+| 8       | Eligibility Traces and TD(λ)    | ✅ Complete    | TD(λ), SARSA(λ), True Online TD(λ), gridworld demos |
+| 9       | Model-Based RL and Planning     | ✅ Complete    | Dyna-Q, planning with rollouts, gridworld demos     |
+| 10      | Function Approximation Basics   | ✅ Complete    | Linear approx, tile coding, TD(0), SARSA, Mountain Car |
 
 ---
 
