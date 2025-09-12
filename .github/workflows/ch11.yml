@@ -1,4 +1,4 @@
-name: ch11 — Policy Gradient (REINFORCE)
+name: ch11
 on:
   push:
     paths: ['ch11_policy_gradient/**', '.github/workflows/ch11.yml']
